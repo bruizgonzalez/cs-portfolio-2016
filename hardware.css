@@ -1,0 +1,13 @@
+.container > * {
+    display:inline-block;
+    vertical-align: top;
+}
+.center {
+    text-align:center;
+}
+
+.single { 
+    margin-left:25%;
+    MArgin-right:25%;
+    
+}

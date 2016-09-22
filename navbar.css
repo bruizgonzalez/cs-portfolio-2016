@@ -1,16 +1,31 @@
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 6px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar li {
+    display:inline-block;
+    /*text-align:right;*/
+}
+
 #navbar {
-    background-color: red;
-    text-align:center;
-
+    text-align:right;
 }
 
-
-
-#navbar > li {
-    background-color: green;
-    display: inline-block;
-    padding: 10px;
-    border: 2px solid purple;
-    color: blue;
-    margin: 5px;
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: #4CAF50;
